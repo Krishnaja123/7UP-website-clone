@@ -1,4 +1,7 @@
 .header {
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 10; 
     background: rgb(247, 154, 131);
     width: 100%;
     height: 110px;
@@ -74,6 +77,9 @@ ul.no-bullets {
     height: 30px;
 
 }
+.banner1{
+    margin-bottom: -3px;
+}
 
 .banner1 img {
     width: 100%;
@@ -103,6 +109,9 @@ ul.no-bullets {
     color: #ffff;
     cursor: pointer;
     text-decoration: none;
+}
+.banner2{
+    margin-bottom: -4px;
 }
 
 .banner2 img {
@@ -135,6 +144,9 @@ ul.no-bullets {
     font-weight: 500;
     line-height: 39.6px;
     margin: 0;
+}
+.banner3{
+    margin-bottom: -5px;
 }
 
 .banner3 img {
@@ -171,20 +183,20 @@ ul.no-bullets {
 
 .footer {
     background: #3e3e3e;
-    width: 100%;
+    width: 86.8%;
     height: 110px;
     padding-left: 200px;
     padding-top: 5px;
     padding-bottom: 0;
     font-size: 15px;
     white-space: normal;
+    margin-right: 0;
 
 }
 
 .footer a {
     color: #fff;
     text-decoration: none;
-    /* Optional: Remove underline */
     cursor: pointer;
     padding-right: 30px;
 }
